@@ -1,0 +1,72 @@
+.hero-wrapper{
+    color: var(--black);
+    position: relative;
+    padding-bottom: 3rem;
+    background: var(--cream);
+    padding: 0 6rem;
+}
+
+.hero-container{
+    justify-content: center;
+    align-items: center;
+    padding: 0 8rem;
+    padding-top: 50px;
+}
+
+ /*--------------------------hero right-----------------------*/
+
+.image-container{
+width: 15rem;
+height: 15rem;
+/*overflow: hidden;*/
+}
+
+.image-container>img{
+    width: 100%;
+    }
+
+    /*--------------------------hero left-----------------------*/
+
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center children horizontally */
+        
+      }
+
+.hero-title{
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title>h1{
+    font-family: 'Purple Purse', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0; 
+}
+
+.hero-des{
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    
+}
+
+.hero-des>span{
+    font-size: 25px;
+    margin: 0; 
+    font-weight: lighter;
+}
+
+ 
+
+
+
+   
+  
+
+
+
+
+

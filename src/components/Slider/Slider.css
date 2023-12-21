@@ -1,0 +1,81 @@
+/* Slider.css */
+.slider-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh; 
+  background-color: var(--cream);
+}
+
+.question-text {
+  text-align: left;
+  margin-bottom: 0px;
+  margin-left: 80px;
+}
+
+.question-text p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.slider-container {
+  max-width: 550px; 
+  position: relative;
+  overflow: hidden;
+  top: -10%;
+}
+
+.slider-background {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.s-button {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  z-index: 2;
+}
+
+.arrow {
+  width: 30px; 
+  height: 30px;
+  cursor: pointer;
+}
+
+.swiper-container {
+  max-width: 386px; /* Adjust to match the width of the slider window */
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.folder {
+  border-radius: 5px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in;
+}
+
+.folder > img {
+  width: 100%;
+  max-width: 8rem; 
+  transition: transform 300ms ease-in;
+}
+
+.folder:hover {
+  transform: scale(1.1); /* Adjust the scaling factor as needed */
+}
