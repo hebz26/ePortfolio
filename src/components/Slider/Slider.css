@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh; 
+  height: 45vh; 
   background-color: var(--cream);
 }
 
@@ -19,10 +19,11 @@
 }
 
 .slider-container {
-  max-width: 550px; 
+  max-width: 550px;
   position: relative;
   overflow: hidden;
-  top: -15%;
+  top: 5%;
+  margin-top: 0; /* Adjust the margin-top value if needed */
 }
 
 .slider-background {
@@ -57,7 +58,7 @@
 .swiper-container {
   max-width: 386px; /* Adjust to match the width of the slider window */
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 5;
@@ -80,3 +81,9 @@
   transform: scale(1.1); /* Adjust the scaling factor as needed */
 }
 
+.bottom-text {
+  margin-top: 40px;
+  text-align: center;
+  background: var(--cream);
+  width: 100%;
+}

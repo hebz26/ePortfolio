@@ -19,13 +19,16 @@ const Slider = () => {
             <SliderButtons />
             {data.map((card, i) => (
               <SwiperSlide key={i}>
-                \
                 <div className="folder">
                   <img src={card.image} alt={card.name} />
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
+        </div>
+        <div className="bottom-text">
+          quick glance
+          <img src="images/down-arrow.png" width={20}></img>
         </div>
       </div>
     </section>
