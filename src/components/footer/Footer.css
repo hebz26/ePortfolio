@@ -1,0 +1,79 @@
+/* Footer.css */
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--cream); /* Add your cream color variable */
+    color: var(--black); /* Add your black color variable */
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 75px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .footer-title {
+    margin-bottom: 10px;
+  }
+  
+  .emailBtn {
+    margin-bottom: -20px;
+  }
+
+  .emailBtn button {
+    padding: 5px;
+    border-radius: 50px;
+    background: transparent; /* No background color */
+    border: 2px solid var(--black); /* Add your desired border color */
+    color: black; /* Add your desired text color */
+    transition: transform 300ms ease-in;
+}
+
+.emailBtn button:hover {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+    cursor: pointer;
+  }
+  
+  .footerImg img{
+    max-width: 300px; /* Adjust the maximum width of the image */
+  }
+  
+  .right-div {
+    display: flex;
+    margin-left: 75px;
+  }
+  
+  .more-title,
+  .social-title {
+    margin-right: 50px;
+    margin-bottom: 60px;
+  }
+  
+  h3 {
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: 'Purple Purse', serif;
+    margin-bottom: 10px;
+  }
+  
+  .more-title a,
+.social-title a {
+    padding-bottom: 20px;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: var(--black); /* Add your color variable */
+  }
+  
+  .more-title a:hover,
+  .social-title a:hover {
+    color: var(--blue); /* Add your hover color variable */
+  }
+  

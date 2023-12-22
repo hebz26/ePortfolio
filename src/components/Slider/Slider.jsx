@@ -19,6 +19,7 @@ const Slider = () => {
             <SliderButtons />
             {data.map((card, i) => (
               <SwiperSlide key={i}>
+                \
                 <div className="folder">
                   <img src={card.image} alt={card.name} />
                 </div>

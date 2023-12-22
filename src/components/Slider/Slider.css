@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60vh; 
+  height: 50vh; 
   background-color: var(--cream);
 }
 
@@ -22,7 +22,7 @@
   max-width: 550px; 
   position: relative;
   overflow: hidden;
-  top: -10%;
+  top: -15%;
 }
 
 .slider-background {
@@ -57,7 +57,7 @@
 .swiper-container {
   max-width: 386px; /* Adjust to match the width of the slider window */
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 5;
@@ -79,3 +79,4 @@
 .folder:hover {
   transform: scale(1.1); /* Adjust the scaling factor as needed */
 }
+
