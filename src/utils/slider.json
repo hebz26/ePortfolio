@@ -2,17 +2,17 @@
   {
     "name": "Development Folder",
     "image": "images/folder-1.png",
-    "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    "link": "/devwork"
   },
   {
     "name": "UI/UX Folder",
     "image": "images/folder-2.png",
-    "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQn"
+    "link": "/uiux"
   },
   {
     "name": "Graphic Design",
     "image": "images/folder-3.png",
-    "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQn"
+    "link": "/graphicdesign"
   }
 
 ]

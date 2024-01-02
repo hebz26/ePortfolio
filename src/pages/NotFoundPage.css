@@ -1,4 +1,4 @@
-.construction-wrapper{
+.NotFound-wrapper{
     color: var(--black);
     position: relative;
     padding-bottom: 3rem;
@@ -6,7 +6,7 @@
     padding: 0 6rem;
 }
 
-.construction-container{
+.NotFound-container{
     justify-content: center;
     align-items: center;
     padding: 0 8rem;
@@ -15,58 +15,47 @@
 
  /*--------------------------hero right-----------------------*/
 
-.imgg-container{
+.NotFoundimg-container{
 width: 25rem;
 height: 25rem;
+margin-left: 20px;
 /*overflow: hidden;*/
 }
 
-.imgg-container>img{
-    width: 80%;
+.NotFoundimg-container>img{
+    width: 100%;
     }
 
     /*--------------------------hero left-----------------------*/
 
-    .construction-left {
+    .NotFound-left {
         display: flex;
         flex-direction: column;
         align-items: center; /* Center children horizontally */
         
       }
 
-.construction-title{
+.NotFound-title{
     position: relative;
     z-index: 1;
 }
 
-.construction-title>h1{
+.NotFound-title>h1{
     font-family: 'Purple Purse', serif;
     font-size: 50px;
     font-weight: lighter;
     margin: 0; 
 }
 
-.construction-des{
+.NotFound-des{
     position: relative;
     z-index: 1;
     margin-top: 10px;
     
 }
 
-.construction-des>span{
+.NotFound-des>span{
     font-size: 25px;
     margin: 0; 
     font-weight: lighter;
 }
-
- 
-
-
-
-   
-  
-
-
-
-
-

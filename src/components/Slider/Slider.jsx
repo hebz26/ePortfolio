@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "./Slider.css";
 import data from "../../utils/slider.json";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
   return (
@@ -19,14 +20,16 @@ const Slider = () => {
             <SliderButtons />
             {data.map((card, i) => (
               <SwiperSlide key={i}>
-                <div className="folder">
-                  <img src={card.image} alt={card.name} />
-                </div>
+                <Link to={card.link}>
+                  <div className="folder">
+                    <img src={card.image} alt={card.name} />
+                  </div>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
-        <div className="bottom-text">
+        <div className="innerWidth  bottom-text">
           quick glance
           <img src="images/down-arrow.png" width={20}></img>
         </div>

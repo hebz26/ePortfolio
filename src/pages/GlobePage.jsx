@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectHero from "../components/ProjectHeader/ProjectHero";
 
 const GlobePage = () => {
+  useEffect(() => {
+    // Scroll to the top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <ProjectHero

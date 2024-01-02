@@ -1,14 +1,25 @@
 /* Card.css */
 .project-container {
     padding: 50px;
+    width: 100%;
     display: flex;
-    width: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: none;
     margin-left: auto;
     margin-right: auto;
     background: white;
   }
-  
+
+  .card-container {
+   display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
   .l-side{
     margin-right: 50px;
   }
@@ -71,6 +82,16 @@
     transform: scale(1.1); /* Adjust the scaling factor as needed */
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 1000px) {
+    .card-container {
+      display: flex;
+       flex-direction: column;
+       
+     }
+  }
+
+  
 
 
 

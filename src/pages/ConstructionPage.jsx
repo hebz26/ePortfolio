@@ -8,12 +8,12 @@ const ConstructionPage = () => {
         <div className="paddings innerWidth flexCenter construction-container">
           <div className="flexColStart construction-left">
             <div className="construction-title">
-              <h1>Sorry about that!</h1>
+              <h1>sorry about that!</h1>
             </div>
             <div className=" construction-des">
               <span>
                 {" "}
-                This page is currently
+                this page is currently
                 <br />
                 under construction
               </span>

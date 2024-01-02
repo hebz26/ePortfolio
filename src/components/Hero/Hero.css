@@ -1,6 +1,7 @@
 .hero-wrapper{
     color: var(--black);
     position: relative;
+    max-width: 100%;
     padding-bottom: 3rem;
     background: var(--cream);
     padding: 0 6rem;
@@ -22,7 +23,7 @@ height: 15rem;
 }
 
 .image-container>img{
-    width: 100%;
+    max-width: 100%;
     }
 
     /*--------------------------hero left-----------------------*/

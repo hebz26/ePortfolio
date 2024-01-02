@@ -3,7 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 45vh; 
+  height: auto;
+  width: 100%; 
   background-color: var(--cream);
 }
 
@@ -19,6 +20,8 @@
 }
 
 .slider-container {
+  display: flex;
+  flex-direction: column;
   max-width: 550px;
   position: relative;
   overflow: hidden;
