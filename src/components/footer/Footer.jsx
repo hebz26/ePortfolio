@@ -33,7 +33,7 @@ const Footer = () => {
             >
               youtube
             </a>
-            <a href="/pdf/oldresume.pdf" download="oldresume.pdf">
+            <a href="/pdf/oldresume.pdf" download="sayedresume.pdf">
               resume
             </a>
           </div>

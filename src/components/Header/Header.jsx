@@ -22,7 +22,7 @@ const Header = () => {
           <NavLink to="/about">about</NavLink>
         </li>
         <li>
-          <a href="/pdf/oldresume.pdf" download="oldresume.pdf">
+          <a href="/pdf/oldresume.pdf" download="sayedresume.pdf">
             resume
           </a>
         </li>
