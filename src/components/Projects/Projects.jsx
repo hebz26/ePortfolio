@@ -18,12 +18,6 @@ const Projects = () => {
         body="I crafted a vibrant website for a smoothie shop, ensuring an appealing online presence. I designed the shop's visual identity using Adobe Illustrator and Photoshop. I designed the brand elements using Adobe Illustrator. Using Next.js, I then brought the envisioned smoothie shop website to life, focusing on creating a seamless and user-friendly online experience."
         projectUrl="/GTPage"
       />
-      <Card
-        title="My ePortfolio"
-        imageUrl="/images/port.png"
-        body="I crafted my portfolio using Vite.js, showcasing a technical fusion of design and development. I deployed it using Netlify."
-        projectUrl="/Portfolio"
-      />
     </section>
   );
 };
