@@ -1,12 +1,15 @@
 .category-wrapper{
     color: var(--black);
     position: relative;
-    padding-bottom: 3rem;
     background: var(--cream);
-    padding: 0 6rem;
+  max-width: 100%; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .category-container{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 8rem;
@@ -16,8 +19,8 @@
  /*--------------------------hero right-----------------------*/
 
 .categoryimg-container{
-width: 15rem;
-height: 15rem;
+max-width: 50%;
+height: 80px;
 /*overflow: hidden;*/
 }
 
