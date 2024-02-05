@@ -12,19 +12,28 @@ const DevPage = () => {
     <>
       <CategoryHero
         title="My Front End Development Work"
-        imageUrl="images/doodlecomp.png"
-        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        imageUrl="images/codingicon.png"
+        body="Here are some websites I've developed."
       />
       <section className=" projects-section">
         <Card
-          title="Globetrotter Smoothies"
+          title="Landing Page - GGE"
+          imageUrl="/images/greenthumbnail.png"
+          body="
+        I designed a captivating landing page for Green Gather Events, an eco-friendly event planning company. Starting with Adobe Illustrator, I created the brand identity and then used Figma to shape the website's UI. Finally, I developed the website using HTML, CSS, and Bootstrap JS."
+          projectUrl="/GGE-Landing-Page"
+        />
+        <Card
+          title="Shop UI - Globetrotter Smoothies"
           imageUrl="/images/globetrotter.png"
-          body="I engineered a Next.js-powered Smoothie Shop Website with server-side rendering, creating a dynamic Home Page, detailed Product Page, and streamlined Cart Page. Leveraging Adobe Illustrator and Photoshop, I meticulously designed all content, demonstrating a seamless integration of technical and creative skills in web development."
+          body="I crafted a vibrant website for a smoothie shop, ensuring an appealing online presence. I designed the shop's visual identity using Adobe Illustrator and Photoshop. I designed the brand elements using Adobe Illustrator. Using Next.js, I then brought the envisioned smoothie shop website to life, focusing on creating a seamless and user-friendly online experience."
+          projectUrl="/GTPage"
         />
         <Card
           title="My ePortfolio"
           imageUrl="/images/port.png"
-          body="I crafted my portfolio using Vite, showcasing a technical fusion of design and development. The site features optimal performance, seamless navigation, and a visually appealing layout, demonstrating my ability to engineer user-centric web solutions with precision and efficiency."
+          body="I crafted my portfolio using Vite.js, showcasing a technical fusion of design and development. I deployed it using Netlify."
+          projectUrl="/Portfolio"
         />
       </section>
     </>

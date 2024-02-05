@@ -6,22 +6,23 @@ const Projects = () => {
   return (
     <section className=" projects-section">
       <Card
-        title="Globetrotter Smoothies"
+        title="Landing Page - GGE"
+        imageUrl="/images/greenthumbnail.png"
+        body="
+        I designed a captivating landing page for Green Gather Events, an eco-friendly event planning company. Starting with Adobe Illustrator, I created the brand identity and then used Figma to shape the website's UI. Finally, I developed the website using HTML, CSS, and Bootstrap JS."
+        projectUrl="/GGE-Landing-Page"
+      />
+      <Card
+        title="Shop UI - Globetrotter Smoothies"
         imageUrl="/images/globetrotter.png"
-        body="I engineered a Next.js-powered Smoothie Shop Website with server-side rendering, creating a dynamic Home Page, detailed Product Page, and streamlined Cart Page. Leveraging Adobe Illustrator and Photoshop, I meticulously designed all content, demonstrating a seamless integration of technical and creative skills in web development."
-        projectUrl="/Project1"
+        body="I crafted a vibrant website for a smoothie shop, ensuring an appealing online presence. I designed the shop's visual identity using Adobe Illustrator and Photoshop. I designed the brand elements using Adobe Illustrator. Using Next.js, I then brought the envisioned smoothie shop website to life, focusing on creating a seamless and user-friendly online experience."
+        projectUrl="/GTPage"
       />
       <Card
         title="My ePortfolio"
         imageUrl="/images/port.png"
-        body="I crafted my portfolio using Vite, showcasing a technical fusion of design and development. The site features optimal performance, seamless navigation, and a visually appealing layout, demonstrating my ability to engineer user-centric web solutions with precision and efficiency."
-        projectUrl="/Project1"
-      />
-      <Card
-        title="Project 3"
-        imageUrl="/images/thumbnail.png"
-        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices gravida dictum fusce ut. Cras sed felis eget velit. Commodo ullamcorper a lacus vestibulum. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Velit laoreet id donec ultrices tincidunt arcu non sodales neque. Eu facilisis sed odio morbi quis commodo odio aenean. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Aliquet enim tortor at auctor suspendisse in est."
-        projectUrl="/Project1"
+        body="I crafted my portfolio using Vite.js, showcasing a technical fusion of design and development. I deployed it using Netlify."
+        projectUrl="/Portfolio"
       />
     </section>
   );

@@ -26,7 +26,13 @@ const Footer = () => {
           <div className="more-title">
             <h3>more</h3>
             <a href="/about">about</a>
-            <a href="/projects">projects</a>
+            <a
+              href="https://www.youtube.com/channel/UCLzYTrFwmlNonWMKPY1FhpA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              youtube
+            </a>
             <a href="/pdf/oldresume.pdf" download="oldresume.pdf">
               resume
             </a>
@@ -47,7 +53,13 @@ const Footer = () => {
             >
               github
             </a>
-            <a href="/notfound">instagram</a>
+            <a
+              href="https://www.instagram.com/hebzstudio/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              instagram
+            </a>
           </div>
         </div>
       </div>

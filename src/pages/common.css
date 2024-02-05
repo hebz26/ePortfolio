@@ -1,0 +1,19 @@
+
+.links-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+    padding: 50px;
+    max-width: 100%;
+}
+
+button{
+    padding: 10px;
+    border-color: black;
+    border-radius: 15px;
+    background-color: #f3ece7;
+    cursor: pointer;
+}
+

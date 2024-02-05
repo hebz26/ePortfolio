@@ -100,8 +100,12 @@
        flex-direction: column;      
      }
 
-     .right-div, .left-div{
+     .left-div{
       margin: auto;
+     }
+
+     .right-div {
+      display: none;
      }
   }
   

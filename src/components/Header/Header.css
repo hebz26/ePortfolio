@@ -1,42 +1,101 @@
-.h-wrapper{
-   background: var(--cream);
-   color: var(--black);
-   padding: 0 6rem;
-   position: sticky;
-   right: 0;
-   left: 0;
-   bottom: 0;
-   top: 0;
-   z-index: 999;
+.active{
+    background-color: #F9F2DD;
 }
 
-.h-container{
+nav {
+    display: flex;
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: var(--black);
+    align-items: center;
+    background-color: var(--cream);
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
-.h-menu{
-    gap: 2rem;
-    font-size: 1.3rem;
+nav .title {
+    margin: 1rem;
+    margin-left: 100px;
 }
 
-.h-menu > * {
-    position: relative;
+nav ul {
+    display: flex;
+    margin-right: 100px;
 }
 
-.h-menu > *::before {
-    content: '';
+nav ul li {
+   list-style: none;
+   font-size: large; 
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover {
+    background-color:pink ;
+}
+
+nav .menu {
+    display: none;
     position: absolute;
-    width: 100%;
-    height: 2px; 
-    background-color: transparent; 
-    bottom: 0;
-    left: 0;
-    transition: background-color 0.3s ease-in-out; 
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+    margin-right: 25px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
-.h-menu > *:hover::before {
-    background-color: var(--black); 
+nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    border-radius: 0.2rem;
+}
+
+
+@media (max-width: 768px) {
+    nav .menu {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
+    }
+
+    nav .title {
+        
+        margin-left: 25px;
+        margin-top: 15px;
+    }
 }
