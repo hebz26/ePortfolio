@@ -11,9 +11,9 @@ const DevPage = () => {
   return (
     <>
       <CategoryHero
-        title="My Front End Development Work"
+        title="My Web Development Work"
         imageUrl="images/codingicon.png"
-        body="Here are some websites I've developed."
+        body="Check out some of these websites I've worked on!"
       />
       <section className=" projects-section">
         <Card
@@ -26,13 +26,13 @@ const DevPage = () => {
         <Card
           title="Shop UI - Globetrotter Smoothies"
           imageUrl="/images/globetrotter.png"
-          body="I crafted a vibrant website for a smoothie shop, ensuring an appealing online presence. I designed the shop's visual identity using Adobe Illustrator and Photoshop. I designed the brand elements using Adobe Illustrator. Using Next.js, I then brought the envisioned smoothie shop website to life, focusing on creating a seamless and user-friendly online experience."
+          body="I crafted a vibrant website for a smoothie shop, ensuring an appealing online presence. I designed the shop's visual identity using Adobe Illustrator and Photoshop. I designed the brand elements using Adobe Illustrator. Using React and Next.js, I then brought the envisioned smoothie shop website to life, focusing on creating a seamless and user-friendly online experience."
           projectUrl="/GTPage"
         />
         <Card
           title="My ePortfolio"
           imageUrl="/images/port.png"
-          body="I crafted my portfolio using Vite.js, showcasing a technical fusion of design and development. I deployed it using Netlify."
+          body="I built my ePortfolio using React with Vite as the build tool, showcasing a technical fusion of design and development. I deployed it using Netlify."
           projectUrl="/Portfolio"
         />
       </section>

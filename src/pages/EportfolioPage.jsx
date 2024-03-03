@@ -13,8 +13,7 @@ const EportfolioPage = () => {
       <ProjectHero
         title="My Eportfolio"
         videoUrl="videos/portdemo.mp4"
-        body="
-        I crafted my portfolio using Vite.js, showcasing a technical fusion of design and development. I deployed it using Netlify."
+        body="I built my ePortfolio using React with Vite as the build tool, showcasing a technical fusion of design and development. I deployed it using Netlify."
       />
 
       <div className="links-container">

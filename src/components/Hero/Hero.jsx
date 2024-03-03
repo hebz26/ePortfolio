@@ -11,7 +11,7 @@ const Hero = () => {
           </div>
           <div className=" hero-des">
             <span>
-              i’m a front end <br />
+              i’m an aspiring <br />
               developer and designer.
             </span>
           </div>

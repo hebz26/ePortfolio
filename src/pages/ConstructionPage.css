@@ -3,14 +3,13 @@
     position: relative;
     padding-bottom: 3rem;
     background: white;
-    padding: 0 6rem;
 }
 
 .construction-container{
     justify-content: center;
     align-items: center;
-    padding: 0 8rem;
     padding-top: 50px;
+    min-height: 70vh;
 }
 
  /*--------------------------hero right-----------------------*/
@@ -30,7 +29,7 @@ height: 25rem;
     .construction-left {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center children horizontally */
+        align-items: center; 
         
       }
 
@@ -41,7 +40,7 @@ height: 25rem;
 
 .construction-title>h1{
     font-family: 'Purple Purse', serif;
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: lighter;
     margin: 0; 
 }
@@ -54,12 +53,16 @@ height: 25rem;
 }
 
 .construction-des>span{
-    font-size: 25px;
+    font-size: 3rem;
     margin: 0; 
     font-weight: lighter;
 }
 
- 
+@media only screen and (max-width: 768px) {
+    .imgg-container{
+       display: none;
+        }
+  }
 
 
 

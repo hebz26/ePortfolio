@@ -10,7 +10,7 @@
 .hero-container{
     justify-content: center;
     align-items: center;
-    padding: 0 8rem;
+    padding: 0 1rem;
     padding-top: 50px;
 }
 
@@ -31,8 +31,7 @@ height: 15rem;
     .hero-left {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center children horizontally */
-        
+        align-items: center; 
       }
 
 .hero-title{
@@ -42,7 +41,7 @@ height: 15rem;
 
 .hero-title>h1{
     font-family: 'Purple Purse', serif;
-    font-size: 50px;
+    font-size: 3.2rem;
     font-weight: lighter;
     margin: 0; 
 }
@@ -55,12 +54,20 @@ height: 15rem;
 }
 
 .hero-des>span{
-    font-size: 25px;
+    font-size: 1.6rem;
     margin: 0; 
     font-weight: lighter;
 }
 
- 
+@media only screen and (max-width: 768px) {
+    .image-container {
+        display: none;
+      }
+      .hero-wrapper{
+        padding: 0 1rem;
+        padding-bottom: 2rem;
+    }
+  }
 
 
 

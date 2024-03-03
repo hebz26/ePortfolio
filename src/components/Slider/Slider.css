@@ -15,7 +15,7 @@
 }
 
 .question-text p {
-  font-size: 18px;
+  font-size: 1.2rem;
   margin: 0;
 }
 
@@ -26,7 +26,7 @@
   position: relative;
   overflow: hidden;
   top: 5%;
-  margin-top: 0; /* Adjust the margin-top value if needed */
+  margin-top: 0;
 }
 
 .slider-background {
@@ -59,7 +59,7 @@
 }
 
 .swiper-container {
-  max-width: 386px; /* Adjust to match the width of the slider window */
+  max-width: 386px; 
   position: absolute;
   top: 25%;
   left: 50%;
@@ -81,7 +81,7 @@
 }
 
 .folder:hover {
-  transform: scale(1.1); /* Adjust the scaling factor as needed */
+  transform: scale(1.1); 
 }
 
 .bottom-text {
@@ -90,4 +90,6 @@
   background: var(--cream);
   width: 100%;
   font-family: 'Purple Purse', serif;
+  font-size: 1.4rem;
 }
+

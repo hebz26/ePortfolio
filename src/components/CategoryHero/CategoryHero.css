@@ -2,7 +2,7 @@
     color: var(--black);
     position: relative;
     background: var(--cream);
-  max-width: 100%; /* Adjust the maximum width as needed */
+  max-width: 100%; 
   margin: 0 auto;
   padding: 20px;
 }
@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 8rem;
+    padding: 0 2rem;
     padding-top: 50px;
 }
 
@@ -21,7 +21,6 @@
 .categoryimg-container{
 max-width: 50%;
 height: 80px;
-/*overflow: hidden;*/
 }
 
 .categoryimg-container>img{
@@ -44,7 +43,7 @@ height: 80px;
 
 .category-title>h1{
     font-family: 'Purple Purse', serif;
-    font-size: 50px;
+    font-size: 3.2rem;
     font-weight: lighter;
     margin: 0; 
 }
@@ -57,7 +56,13 @@ height: 80px;
 }
 
 .category-des>span{
-    font-size: 25px;
+    font-size: 1.6rem;
     margin: 0; 
     font-weight: lighter;
 }
+
+@media only screen and (max-width: 768px) {
+    .categoryimg-container {
+        display: none;
+      }
+  }

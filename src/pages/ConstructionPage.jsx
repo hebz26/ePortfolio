@@ -5,7 +5,7 @@ const ConstructionPage = () => {
   return (
     <>
       <section className="construction-wrapper">
-        <div className="paddings innerWidth flexCenter construction-container">
+        <div className=" flexCenter construction-container">
           <div className="flexColStart construction-left">
             <div className="construction-title">
               <h1>sorry about that!</h1>

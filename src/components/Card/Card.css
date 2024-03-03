@@ -1,97 +1,126 @@
 /* Card.css */
 .project-container {
-    padding: 50px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    background: white;
-  }
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
 
-  .card-container {
-   display: flex;
-    width: 60%;
-    align-items: center;
-    justify-content: center;
-    
-  }
+.card-container {
+ display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
 
-  .l-side{
-    margin-right: 50px;
-  }
-  .l-side,
-  .r-side {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .thumbnail-container {
-    width: 100%;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .thumbnail-container img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    margin-top: 20px;
-    margin-bottom: auto;
-    transition: transform 300ms ease-in;
-  }
+.l-side{
+  margin-right: 50px;
+}
 
-  .thumbnail-container img:hover {
-    transform: scale(1.1); /* Adjust the scaling factor as needed */
-    cursor: pointer;
-  }
-  
-  .project-title h1{
-    font-family: 'Purple Purse', serif;
-  }
-  
+.l-side,
+.r-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
-  .project-title,
-  .project-body {
-    padding: 10px;
-  }
-  
-  .project-title h1,
-  .project-body h5 {
-    margin: 0;
-  }
-  .workBtn{
-    margin-left: 15px;
-    margin-top: 5px;
-  }
-  .workBtn button {
-    padding: 5px;
-    border-radius: 50px;
-    background: transparent; /* No background color */
-    border: 2px solid var(--black); /* Add your desired border color */
-    color: black; /* Add your desired text color */
-    transition: transform 300ms ease-in;
+.l-side
+{
+  align-items: center;
+}
+
+
+.thumbnail-container {
+  width: 100%;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail-container img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: auto;
+  transition: transform 300ms ease-in;
+}
+
+.thumbnail-container img:hover {
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+.project-title h1{
+  font-family: 'Purple Purse', serif;
+  font-size: 1.8rem;
+}
+
+
+.project-title,
+.project-body {
+  padding: 5px;
+}
+
+.project-title h1,
+.project-body h5 {
+  margin: 0;
+}
+.project-body h5 {
+ font-size: 1.0rem;
+
+}
+
+.workBtn{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.workBtn button {
+  padding: 5px;
+  border-radius: 50px;
+  background: transparent; 
+  border: 2px solid var(--black); 
+  color: black; 
+  transition: transform 300ms ease-in;
+  font-size: 1rem;
 }
 
 .workBtn button:hover {
-    transform: scale(1.1); /* Adjust the scaling factor as needed */
-    cursor: pointer;
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card-container {
+    display: flex;
+     flex-direction: column;
+     width: 70%;
+   }
+   .l-side
+   {
+    width: 55%;
+    margin: 0;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+  .project-container {
+    padding: 5px;
   }
-
-  @media only screen and (max-width: 1000px) {
-    .card-container {
-      display: flex;
-       flex-direction: column;
-       
-     }
-  }
-
-  
-
-
-
+  .card-container {
+     width: 80%;
+   }
+   .l-side
+   {
+    width: 65%;
+    margin: 0;
+   }
+}
