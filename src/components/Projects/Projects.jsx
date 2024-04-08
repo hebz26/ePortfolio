@@ -6,6 +6,13 @@ const Projects = () => {
   return (
     <section className=" projects-section">
       <Card
+        title="Google Sponspored Event Website"
+        imageUrl="/images/iwdsummit1.png"
+        body="I collaborated closely with a team of developers to create the 2024 International Women's Day Tech Conference website. This event was hosted by DTE and sponsored by Google.
+         We used React and Tailwind CSS."
+        projectUrl="/IWDPage"
+      />
+      <Card
         title="Landing Page - GGE"
         imageUrl="/images/greenthumbnail.png"
         body="

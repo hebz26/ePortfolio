@@ -11,6 +11,7 @@ import DevPage from "./pages/DevPage";
 import EportfolioPage from "./pages/EportfolioPage";
 import GTPage from "./pages/GTPage";
 import DesignPage from "./pages/DesignPage";
+import IWDPage from "./pages/IWDpage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="graphicdesign" element={<DesignPage />} />
         <Route path="GGE-Landing-Page" element={<GGEPage />} />
         <Route path="GTPage" element={<GTPage />} />
+        <Route path="IWDPage" element={<IWDPage />} />
         <Route path="Portfolio" element={<EportfolioPage />} />
         <Route path="about" element={<ConstructionPage />} />
         <Route path="*" element={<NotFoundPage />} />
