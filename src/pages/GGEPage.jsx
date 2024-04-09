@@ -13,7 +13,7 @@ const GGEPage = () => {
       <ProjectHero
         title="Landing Page - GGE"
         videoUrl="videos/gge-landing-page.mp4"
-        body="I designed a captivating landing page for Green Gather Events, an eco-friendly event planning company. Starting with Adobe Illustrator, I created the brand identity and then used Figma to shape the website's UI. Finally, I developed the website using HTML, CSS, and Bootstrap JS."
+        body="I designed and developed a captivating landing page for Green Gather Events, an eco-friendly event planning company. I developed the website using HTML, CSS, and Bootstrap JS."
       />
 
       <div className="links-container">
@@ -22,15 +22,30 @@ const GGEPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>Click here to visit the website</button>
+          <button>Visit the website</button>
         </a>
         <a
           href="https://github.com/hebz26/GGE-Landing-Page"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>Click here to see the code</button>
+          <button>See the code</button>
         </a>
+        <a
+          href="https://www.instagram.com/p/C1XQbccrHjH/?img_index=1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>See the brand</button>
+        </a>
+      </div>
+      <div className="paras">
+        <p>
+          This project was for a design brief by The Brief Collective on
+          Instagram. I carefully designed the brand's identity using Adobe
+          Illustrator. I used Figma to create a mockup for the website and then
+          started developing. I used Bootstrap JS mainly for the navigation.{" "}
+        </p>
       </div>
     </>
   );

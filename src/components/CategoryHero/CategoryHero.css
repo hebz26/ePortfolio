@@ -61,8 +61,8 @@ height: 80px;
     font-weight: lighter;
 }
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
     .categoryimg-container {
         display: none;
       }
-  }
+  } */

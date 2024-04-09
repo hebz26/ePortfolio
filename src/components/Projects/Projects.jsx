@@ -16,13 +16,13 @@ const Projects = () => {
         title="Landing Page - GGE"
         imageUrl="/images/greenthumbnail.png"
         body="
-        I designed a captivating landing page for Green Gather Events, an eco-friendly event planning company. Starting with Adobe Illustrator, I created the brand identity and then used Figma to shape the website's UI. Finally, I developed the website using HTML, CSS, and Bootstrap JS."
+        I designed and developed a captivating landing page for Green Gather Events, an eco-friendly event planning company. I developed the website using HTML, CSS, and Bootstrap JS."
         projectUrl="/GGE-Landing-Page"
       />
       <Card
-        title="Shop UI - Globetrotter Smoothies"
+        title="Shop UI"
         imageUrl="/images/globetrotter.png"
-        body="I crafted a vibrant website for a smoothie shop, ensuring an appealing online presence. I designed the shop's visual identity using Adobe Illustrator and Photoshop. I designed the brand elements using Adobe Illustrator. Using React and Next.js, I then brought the envisioned smoothie shop website to life, focusing on creating a seamless and user-friendly online experience."
+        body="I crafted a vibrant shop UI for a smoothie shop. I did this using React. It includes a home page, product page, cart page, and order page."
         projectUrl="/GTPage"
       />
     </section>

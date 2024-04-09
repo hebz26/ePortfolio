@@ -5,7 +5,7 @@
     justify-content: center;
     gap: 50px;
     background-color: white;
-    padding: 50px;
+    padding: 10px;
     max-width: 100%;
 }
 
@@ -15,5 +15,18 @@ button{
     border-radius: 15px;
     background-color: #f3ece7;
     cursor: pointer;
+}
+
+p{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 70%;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.paras{
+    margin-bottom: 40px;
 }
 

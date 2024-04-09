@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import AboutPage from "./pages/AboutPage";
 
 import Footer from "./components/footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -27,7 +28,7 @@ function App() {
         <Route path="GTPage" element={<GTPage />} />
         <Route path="IWDPage" element={<IWDPage />} />
         <Route path="Portfolio" element={<EportfolioPage />} />
-        <Route path="about" element={<ConstructionPage />} />
+        <Route path="about" element={<AboutPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer></Footer>
